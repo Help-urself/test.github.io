@@ -1,0 +1,124 @@
+.image-container {
+    width: 200px;
+    height: 100px;
+
+  }
+  .image-container img {
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 0 3px red, 0 0 13px #333; /* Параметры теней */
+    width: 50%;
+    height: 100%;
+  }
+
+  .server {
+
+    margin-left: 300px;
+    color:whitesmoke;
+  }
+
+.center{
+   text-align:center;
+   margin: 0 auto;
+} 
+
+.right{
+  text-align: right;
+  float: right;
+}
+
+.commandmenu{
+  position: sticky;
+  position: -webkit-sticky;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 45%;
+    border: none;
+    border-radius: 10px 10px 0px 0px; 
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 10px;
+    top:0;
+  
+}
+
+.mainleft {
+  //border: 1px solid red;
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.mainright{
+  text-align: right;
+  width: 73%;
+  display: inline-block;
+  vertical-align: top; 
+}
+
+.mainleft{
+  height: 600px;
+
+}
+
+
+.b {
+  -webkit-box-shadow:0px 0px 50px 30px #ff0000 ;
+  -moz-box-shadow:0px 0px 50px 30px #ff0000 ;
+  box-shadow:0px 0px 50px 30px #ff0000 ;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 600px;
+  border: none;
+  border-radius: 10px 10px 0px 0px; 
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: rgb(48, 48, 81); 
+  color : white;
+}
+
+.mybut {
+  color: white;
+  background-color: rgb(48, 48, 81);
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 10px;
+
+}
+
+.panel {
+  width: 564px;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0px 00px 10px 10px; 
+  text-align: left;
+}
+
+.lorem {
+  display: inline;
+  margin-left: 16px;
+}
+
+.ban {
+  color: white;
+  background-color: #797979;
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 10px;
+}

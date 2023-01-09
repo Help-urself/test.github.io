@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="./index.css">
+<link rel="shortcut icon" href="https://nyaa.shikimori.one/system/characters/original/10540.jpg?1633737262" type="image/jpg">
+<style>
+body {
+    background-image:  url('./image-79g03jvo.png');
+}
+</style>
+<body> 
+<div class="mainleft">
+<div class="commandmenu"> 
+		<p><a style="color:white"><h1>sskdnjb</h1></a></p>
+		<p><a style="color:white"><h1>sskdnjb</h1></a></p>
+		<p><a style="color:white"><h1>sskdnjb</h1></a></p>
+
+
+</div>
+</div> 
+<div class="mainright ">
+<div class="right">
+	<button class="accordion">Ban</button>
+<div class="panel">
+  <p><div class="mybut">ban</div>
+	<div class="lorem"> - выдать участнику вечный бан.</p><p>
+		<h>Falkon ищет участника по его имени а потом уже выдает бан</h>
+			</p><p><b>Использование :</b></p><p>
+				<div class="ban">v.ban @user/id/name [reason]</div></p></div>
+</div>
+
+
+	<p></p>
+
+	<div class="right"><button class="accordion">unban</button>
+		<div class="panel">
+		  <p><div class="mybut">unban</div>
+			<div class="lorem"> - разбанить участника
+			</p><p>
+				<h>Falkon ищет участника по его id а потом уже с помощью списка забаненых участников сервера находит даного юзера</h>
+					</p><p><b>Использование :</b></p><p>
+						<div class="ban">v.unban user id</div></p></div>
+		</div>
+
+		<p></p>
+<div class="right"><button class="accordion">mute</button>
+			<div class="panel">
+			  <p><div class="mybut">mute</div>
+				<div class="lorem"> - выдать участнику мут
+				</p><p>
+					<h>Falkon ищет участника по его имени а потом уже выдает ему мут на столько секунд сколько было указано в команде</h>
+						</p><p><b>Использование :</b></p><p>
+							<div class="ban">v.mute @user/id/name 1(1 секунда,но вы можете ставить больше)</div></p></div>
+</div>
+</div>
+
+
+</body>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
